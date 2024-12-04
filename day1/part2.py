@@ -1,7 +1,7 @@
 first = []
 second = []
 
-with open('input', 'r') as file:
+with open('day1/input', 'r') as file:
     for line in file: 
         arr = line.split("   ")
         arr[-1] =arr[-1].strip("\n")
