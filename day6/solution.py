@@ -66,7 +66,8 @@ while could_move:
 r = []
 for line in m:
     ls = "".join(line)
-    
+    print(ls)  
+
 print(len(moves))
 
 
